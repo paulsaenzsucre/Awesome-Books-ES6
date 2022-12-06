@@ -8,7 +8,49 @@
   <title>Awesome Books</title>
 </head>
 <body>
-  
+  <main id="main-cont">
+    <header class="header">
+      <h2>Awesome books</h2>
+      <ul class="header-ul">
+        <li class="header-list"><a id="list-link" href="#" class="header-link">List</a>
+          <hr class="menu-separator">
+        </li>
+        <li class="header-list"><a id="add-link" href="#" class="header-link">Add new</a>
+          <hr class="menu-separator">
+        </li>
+        <li class="header-list"><a id="contact-link" href="#" class="header-link">Contact</a></li>
+      </ul>
+    </header>
+    <p class="date" id="date"></p>
+    <h1>Awesome books</h1>
+    <section id="form-cont" class="form-cont">
+      <form action="" id="form" class="hidden">
+        <h2 class="form-title">Add a New Book</h2>
+        <div>
+          <input type="text" id="title" placeholder="Title" class="form-element" required>
+        </div>
+        <div>
+          <input type="text" id="author" placeholder="Author" class="form-element" required>
+        </div>
+        <div>
+          <input type="submit" id="add-btn" value="Add" />
+        </div>
+      </form>
+    </section> 
+    <section id="contact" class="hidden">
+      <h2 class="form-title">Contact Information</h2>
+      <p>Do have any questions or you, just want to say "Hello"?</p>
+      <p>You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number: 00435486534422</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </section>
+    <footer>
+      <p>Copyright (c) SomeBusiness 2022</p>
+    </footer>   
+  </main>
 </body>
 </html>
 
